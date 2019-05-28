@@ -9,6 +9,9 @@ const func1 = (n) => {
   }
 }
 ```
+- Time Complexity: O(n)
+- Space Complexity: O(1)
+---
 
 ```javascript
 const func2 = (arr) => {
@@ -17,7 +20,9 @@ const func2 = (arr) => {
   }
 }
 ```
-
+- Time Complexity: O(n)
+- Space Complexity: O(1)
+---
 ```javascript
 const func3 = (arr) => {
   for (let v of arr) {
@@ -25,7 +30,9 @@ const func3 = (arr) => {
   }
 }
 ```
-
+- Time Complexity: O(n)
+- Space Complexity: O(1)
+---
 ```javascript
 const func4 = (arr) => {
   for (let i = 0; i < 5; i++) {
@@ -33,7 +40,9 @@ const func4 = (arr) => {
   }
 }
 ```
-
+- Time Complexity: O(1)
+- Space Complexity: O(1)
+---
 ```javascript
 const func5 = (arr) => {
   for (let i = 0; i < 5; i++) {
@@ -45,7 +54,9 @@ const func5 = (arr) => {
   }
 }
 ```
-
+- Time Complexity: O(1)
+- Space Complexity: O(1)
+---
 ```javascript
 const func6 = (arr) => {
 
@@ -66,7 +77,9 @@ const func6 = (arr) => {
 
 }
 ```
-
+- Time Complexity: O(n)
+- Space Complexity: O(1)
+---
 ```javascript
 const func7 = (arr) => {
   for (let i = 0; i < arr.length; i++) {
@@ -76,7 +89,9 @@ const func7 = (arr) => {
   }
 }
 ```
-
+- Time Complexity: O(n^2)
+- Space Complexity: O(1)
+---
 ```javascript
 const func8 = (arr) => {
   for (let i = 0; i < arr.length; i++) {
@@ -88,7 +103,9 @@ const func8 = (arr) => {
   }
 }
 ```
-
+- Time Complexity: O(n^3)
+- Space Complexity: O(1)
+---
 ```javascript
 const func9 = (arr) => {
   for (let i = 0; i < arr.length; i++) {
@@ -106,7 +123,9 @@ const func9 = (arr) => {
   }
 }
 ```
-
+- Time Complexity: O(n^2)
+- Space Complexity: O(1)
+---
 ```javascript
 const func10 = (arr) => {
   for (let i = 0; i < arr.length; i++) {
@@ -124,7 +143,9 @@ const func10 = (arr) => {
   }
 }
 ```
-
+- Time Complexity: O(n^2)
+- Space Complexity: O(1)
+---
 ## Part 2
 
 ### For every function state the best and worst case
@@ -138,6 +159,11 @@ const func1 = (n) => {
   }
 }
 ```
+- Time Complexity: 
+  - Best - O(1)
+  - Worst - O(n)
+- Space Complexity: O(1)
+---
 
 ```javascript
 const func2 = (n) => {
@@ -148,7 +174,11 @@ const func2 = (n) => {
   }
 }
 ```
-
+- Time Complexity: 
+  - Best - O(1)
+  - Worst - O(n)
+- Space Complexity: O(1)
+---
 ```javascript
 const func3 = (arr) => {
     if (arr.count < 3) {
@@ -173,7 +203,12 @@ const func3 = (arr) => {
     });
 }
 ```
-
+> In JavaScript: This would break. But assuming that by _.count_ we mean _.length_ then
+- Time Complexity: 
+  - Best - O(1)
+  - Worst - O(n^2)
+- Space Complexity: O(1)
+---
 ```javascript
 const func4 = (arr, target) => {
 
@@ -186,7 +221,11 @@ const func4 = (arr, target) => {
   }
 }
 ```
-
+- Time Complexity: 
+  - Best - O(log n)
+  - Worst - O(n)
+- Space Complexity: O(1)
+---
 ```javascript 
 const func5 = (arr) => {
     if (arr.length < 2) {
@@ -220,3 +259,10 @@ const utilityFunc = (left, right) => {
   return result.concat(left.slice(l)).concat(right.slice(r));
 }
 ```
+- Time Complexity: 
+  - Best - O(1)
+  - Worst - O(n)
+- Space Complexity: 
+  - Best - O(1)
+  - Worst - O(log n) | O(n)?
+---
