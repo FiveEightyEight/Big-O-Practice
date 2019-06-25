@@ -261,7 +261,7 @@ const utilityFunc = (left, right) => {
 ```
 - Time Complexity: 
   - Best - O(1)
-  - Worst - O(n)
+  - Worst - O(n log n)
 - Space Complexity: 
   - Best - O(1)
   - Worst - O(log n) | O(n)?
